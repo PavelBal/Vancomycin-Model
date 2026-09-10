@@ -1,5 +1,6 @@
 {
-  "Version": 80,
+  "Name": "Vancomycin",
+  "Version": 81,
   "Individuals": [
     {
       "Name": "Adult Male Boeckh 1988",
@@ -181,17 +182,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 500.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -203,17 +207,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 1000.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ]
     },
@@ -225,17 +232,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 1000.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "End time",
@@ -255,17 +265,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 500.0,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "End time",
@@ -292,17 +305,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -311,7 +327,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -334,19 +351,22 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|1000 mg BID Healy1987|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|1000 mg BID Healy1987|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|1000 mg BID Healy1987|Application_2|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|1000 mg BID Healy1987|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|1000 mg BID Healy1987|Application_3|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|1000 mg BID Healy1987|No formulation|Application_3|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -378,147 +398,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": true,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Healy1987_1gBID-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)|Time",
-              "Y": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "ChartWidth": 400,
-            "ChartHeight": 400,
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Vancomycin_clean\nHealy1987_1gBID\n2019-05-11 22:47"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": true,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Healy1987_1gBID-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Healy1987_1gBID|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)|Time",
-              "Y": "Healy 1987 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis 1",
-          "FontAndSize": {
-            "ChartWidth": 400,
-            "ChartHeight": 400,
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Vancomycin_clean\nHealy1987_1gBID\n2019-05-11 22:47"
-        }
-      ]
+      "HasResults": false
     },
     {
       "Name": "Healy1987_0.5gPer6h",
@@ -533,17 +413,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -552,7 +435,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -575,29 +459,34 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|500 mg 6h Healy1987|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|500 mg 6h Healy1987|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|500 mg 6h Healy1987|Application_2|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|500 mg 6h Healy1987|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|500 mg 6h Healy1987|Application_3|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|500 mg 6h Healy1987|No formulation|Application_3|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|500 mg 6h Healy1987|Application_4|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|500 mg 6h Healy1987|No formulation|Application_4|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Events|500 mg 6h Healy1987|Application_5|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|500 mg 6h Healy1987|No formulation|Application_5|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -629,147 +518,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": true,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Healy1987_0.5gPer6h-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|Time",
-              "Y": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "ChartWidth": 400,
-            "ChartHeight": 400,
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Vancomycin_clean\nHealy1987_0.5gPer6h\n2019-05-11 22:45"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": true,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Healy1987_0.5gPer6h-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Healy1987_0.5gPer6h|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|Time",
-              "Y": "Healy 1987 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis 1",
-          "FontAndSize": {
-            "ChartWidth": 400,
-            "ChartHeight": 400,
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Vancomycin_clean\nHealy1987_0.5gPer6h\n2019-05-11 22:45"
-        }
-      ]
+      "HasResults": false
     },
     {
       "Name": "Boeckh1988_1g",
@@ -784,17 +533,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -803,26 +555,30 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 24.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|1g infusion 60min|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|1g infusion 60min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -854,147 +610,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Boeckh1988_1g-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|Time",
-              "Y": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "ChartWidth": 400,
-            "ChartHeight": 400,
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Vancomycin\nBoeckh1988_1g\n2021-09-17 16:55"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Boeckh1988_1g-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Boeckh1988_1g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|Time",
-              "Y": "Boekh 1988 - mean 1g - Vancomycin - IV - 1 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis 1",
-          "FontAndSize": {
-            "ChartWidth": 400,
-            "ChartHeight": 400,
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Vancomycin\nBoeckh1988_1g\n2021-09-17 16:55"
-        }
-      ]
+      "HasResults": false
     },
     {
       "Name": "Boeckh 1988 Figure 1 0.5g",
@@ -1009,17 +625,20 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1028,7 +647,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -1041,16 +661,18 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Events|Boeckh_1988_0.5g|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Boeckh_1988_0.5g|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 60.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -1082,147 +704,7 @@
           }
         }
       ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Boeckh 1988 Figure 1 0.5g-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Boeckh 1988 Figure 1 0.5g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|Time",
-              "Y": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "FontAndSize": {
-            "ChartWidth": 400,
-            "ChartHeight": 400,
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Vancomycin\nBoeckh 1988 Figure 1 0.5g\n2021-09-17 16:55"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Boeckh 1988 Figure 1 0.5g-Vancomycin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Boeckh 1988 Figure 1 0.5g|Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)-Vancomycin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|Time",
-              "Y": "Boekh 1988 - mean 0.5g - Vancomycin - IV - 0.5 g - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Vancomycin|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis 1",
-          "FontAndSize": {
-            "ChartWidth": 400,
-            "ChartHeight": 400,
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Vancomycin\nBoeckh 1988 Figure 1 0.5g\n2021-09-17 16:55"
-        }
-      ]
+      "HasResults": false
     }
   ],
   "ObservedData": [
@@ -1365,7 +847,7 @@
             9.166776,
             5.831,
             3.624048,
-            2.74338722,
+            2.7433872,
             1.536024
           ],
           "Dimension": "Concentration (mass)",
@@ -1532,7 +1014,7 @@
             48.15259,
             32.8377,
             25.73827,
-            20.8881073,
+            20.888107,
             16.75642,
             10.17552,
             7.18494,
@@ -1705,7 +1187,7 @@
             6.821053,
             4.357895,
             2.936842,
-            1.61052608,
+            1.6105261,
             0.8526316,
             0.4736842
           ],
@@ -1745,7 +1227,7 @@
           24.98328,
           25.28428,
           25.29,
-          26.0869579,
+          26.086958,
           26.48829,
           26.98997,
           27.59197,
@@ -1870,7 +1352,7 @@
           },
           "Values": [
             0.1458333,
-            63.4375038,
+            63.437504,
             53.66667,
             46.22917,
             38.0625,
