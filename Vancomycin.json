@@ -350,26 +350,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|1000 mg BID Healy1987|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 60.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|1000 mg BID Healy1987|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
-          "Value": 60.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|1000 mg BID Healy1987|No formulation|Application_3|ProtocolSchemaItem|Infusion time",
-          "Value": 60.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)"
       ],
@@ -598,38 +578,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|500 mg 6h Healy1987|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 60.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|500 mg 6h Healy1987|No formulation|Application_2|ProtocolSchemaItem|Infusion time",
-          "Value": 60.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|500 mg 6h Healy1987|No formulation|Application_3|ProtocolSchemaItem|Infusion time",
-          "Value": 60.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|500 mg 6h Healy1987|No formulation|Application_4|ProtocolSchemaItem|Infusion time",
-          "Value": 60.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|500 mg 6h Healy1987|No formulation|Application_5|ProtocolSchemaItem|Infusion time",
-          "Value": 60.0,
-          "Unit": "min",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Vancomycin|Plasma (Peripheral Venous Blood)"
       ],
@@ -852,14 +800,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|1g infusion 60min|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 60.0,
-          "Unit": "min",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -1086,14 +1026,6 @@
               "ValueOrigin": {}
             }
           ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|Boeckh_1988_0.5g|No formulation|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 60.0,
-          "Unit": "min",
-          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
